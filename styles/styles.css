@@ -1,0 +1,207 @@
+#wrapper{
+    width:960px;
+    height:100%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 20px;
+    /* border: thin solid black; */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 5px grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+header{
+    height: 120px;;
+    width:100%;
+    /* background-color: #ffffff; */
+    /* margin: 0 20px; */
+    /* border: thin solid black; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo {
+    height: 100%;
+    width: 40%;
+    float: left;
+    margin-left: 20px;
+    /* border: thin solid black; */
+    /* margin-top: 20px; */
+}
+#logo img {
+    /* height: 100%; */
+    /* width: 100%; */
+    /* margin: 0;
+    padding: 0;
+    border: thick; */
+    margin-left: 30px;
+}
+
+#nav-bar {
+    height: 100%;
+    width: 50%;
+    float: right;
+    /* margin-right: 20px;
+    margin-top: 20px; */
+    /* border: thin solid black */
+}
+
+table {
+
+    border: thin solid black;
+}
+th{
+    border: thin solid black;
+
+}
+td {
+    border: thin solid black;
+
+}
+
+#nav-bar li{
+    display: inline;
+    float: left;
+    height: 50%;
+}
+#nav-bar a{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    padding-top: 30px;
+    text-decoration: none;
+    /* background-color: #585858; */
+    color: black;
+    width: 131px;
+    height: 75%;
+    text-align: center;
+    display:block;
+}
+#nav-bar a:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    text-decoration: none;
+    background-color: lightblue;
+    color: white;
+    /* border-color: #3a3e78; */
+    width: 131px;
+    height: 75%;
+    text-align: center;
+    display:block;
+}
+
+#hero {
+    width: 95%;
+    height: 200px;
+    margin: 0 20px;
+    /* border: thin solid black; */
+    background-image: url(../images/hero.png);
+    background-size: cover;
+}
+
+#personal {
+    /* border: thin solid black; */
+    height: 400px;
+    width: 95%;
+    margin: 0 20px;
+    margin-top: 20px;
+}
+
+#about {
+    /* border: thin solid black; */
+    height:100%;
+    width: 95%;
+    margin: 0 20px;
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+
+
+#bio {
+    /* border: thin solid black; */
+    height: 350px;
+    width: 40%;
+    float: left;
+}
+
+#personal-image {
+    /* border: thin solid black; */
+    height: 350px;
+    width: 40%;
+    float: right;
+}
+
+#personal-image img {
+    /* height: 100%;
+    width: 100%; */
+    /* margin: 0;
+    padding: 0;
+    border: thick; */
+    margin-left: 70px;
+    border-radius: 10%;
+}
+
+footer{
+    width: 95%;
+    height: 200px;
+    margin: 0 20px;
+    /* border: thin solid black; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+#social-media {
+    width: 20%;
+    height: 100%;
+    /* margin: 0 20px; */
+    /* border: thin solid black; */
+    /* margin-top: 20px; */
+    float: left;
+    margin: auto;
+    margin: 0 10px;
+
+}
+
+#contact {
+    width: 20%;
+    height: 100%;
+    /* margin: 0 20px; */
+    /* border: thin solid black; */
+    /* margin-top: 20px; */
+    float: left;
+    margin: auto;
+    margin: 0 10px;
+
+}
+
+#map {
+    width: 50%;
+    height: 100%;
+    /* margin: 0 20px; */
+    /* border: thin solid black; */
+    /* margin-top: 20px; */
+    float: right;
+    margin: 0 10px;
+}
+
+
+
+
+
